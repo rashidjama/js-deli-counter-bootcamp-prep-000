@@ -1,7 +1,7 @@
 
-function takeANumber(deliLine, customerName) {
-  deliLine.push(customerName);
-  return `Welcome, ${customerName}. You are number ${deliLine.length} in line.`;
+function takeANumber(deliLine, ticketNumb) {
+  deliLine.push(ticketNumb);
+    return `Welcome,  your ${ticketNumb} is ${deliLine} in line.`
 }
 
 function nowServing(katzDeli) {
